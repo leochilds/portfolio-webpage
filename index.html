@@ -9,16 +9,33 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <style>
         #welcome-section {
-            margin-top:50px;
             height: 100vh;
             display: block;
         }
+
+        .welcome {
+            height: 100vh;
+            text-align: center;
+            background-color: lightskyblue;
+        }
+
         #navbar {
             position: fixed;
             top: 0;
             display: block;
         }
-        @media (max-width: 780px){
+
+        section {
+            margin-top: 70px;
+        }
+
+        img {
+            display: block;
+            margin: auto;
+            max-width: 100%;
+        }
+
+        @media (max-width: 780px) {
             #welcome-section {
                 height: auto;
             }
@@ -27,154 +44,66 @@
 </head>
 
 <body>
-    
-    <nav id="navbar">
-        <a href="#tribute-project">Tribute Project</a>
+
+    <nav id="navbar" class="w3-bar w3-black">
+        <a class="w3-bar-item w3-right w3-btn w3-green w3-round-large w3-margin" href="#projects">Projects</a>
     </nav>
     <section id="welcome-section">
-        <h1>Welcome</h1>
-        <p><a id="profile-link" href="https://github.com/leochilds" target="_blank">Click here to see my github profile</a></p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac leo lacus. Nulla lacus ex, rutrum id
-            arcu varius, porta facilisis lectus. Morbi interdum feugiat nunc sed rutrum. Aliquam placerat magna ac
-            lobortis elementum. Nulla nisl justo, volutpat ut rutrum a, dignissim et augue. Maecenas augue libero,
-            blandit quis convallis ac, condimentum sed purus. Nam accumsan tempor turpis. Cras non elementum justo.
-
-            Phasellus ullamcorper rhoncus turpis, sit amet sollicitudin velit vestibulum eu. Nullam pretium, diam vitae
-            condimentum cursus, elit velit bibendum eros, id aliquet justo nulla ac libero. Nulla aliquet, lorem eu
-            posuere ultricies, dolor libero consequat sapien, quis efficitur tellus odio non quam. Aliquam erat
-            volutpat. Vivamus vehicula varius ex, vel varius arcu fringilla et. Cras massa tellus, elementum vel augue
-            ac, molestie ullamcorper dolor. Maecenas semper non est quis finibus. Cras ac nisi eget quam pulvinar
-            vestibulum sit amet a orci. Cras tortor nisl, convallis vitae lorem vel, pharetra accumsan tellus. Curabitur
-            at nibh ac risus aliquam lobortis et id dui. Cras a arcu dui. Vivamus a dolor malesuada, finibus erat ac,
-            dictum metus.
-
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum purus lorem, vestibulum ut ornare vitae,
-            feugiat id turpis. Aliquam erat dolor, pellentesque vitae venenatis finibus, mollis sit amet urna. Fusce
-            finibus lacus vitae odio sodales placerat. Praesent eget rhoncus augue. Aenean massa urna, maximus at purus
-            sit amet, mollis dictum sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-            cubilia curae;
-
-            In hac habitasse platea dictumst. Curabitur tincidunt dictum neque et pellentesque. In condimentum feugiat
-            neque, tincidunt mollis purus dapibus in. Vestibulum tristique mauris ante, nec semper lacus suscipit vel.
-            Curabitur convallis justo id ligula maximus tempor. Suspendisse ornare metus sed est volutpat eleifend.
-            Curabitur in lectus quis purus aliquam scelerisque sit amet id velit. Vivamus est nibh, aliquet in tristique
-            vel, pharetra vitae mi. Donec elementum odio sed lorem cursus, nec bibendum nunc malesuada. Sed non
-            pellentesque risus. Phasellus congue viverra porttitor. Cras ac molestie odio, vitae laoreet quam. Proin
-            venenatis eget massa vel iaculis.
-
-            Vestibulum tellus arcu, convallis non tincidunt et, vestibulum sed enim. Etiam in semper nunc. Mauris est
-            est, tristique vitae consectetur in, placerat sed purus. Proin facilisis dui iaculis vehicula ullamcorper.
-            Duis sem erat, pulvinar ut malesuada at, ultricies ac ipsum. Donec tristique eros efficitur hendrerit
-            blandit. Vestibulum fringilla, magna in sollicitudin iaculis, diam elit viverra est, vitae gravida velit
-            magna eu nisi. Maecenas aliquam, felis sit amet bibendum maximus, erat ipsum finibus urna, quis pulvinar
-            purus risus a arcu. Fusce sollicitudin ante enim, vitae venenatis sem rutrum consequat. Fusce cursus sapien
-            vitae auctor rutrum. Duis maximus elit id eros scelerisque sollicitudin. Maecenas blandit purus in est
-            suscipit porta.
-
-            Phasellus ut mollis quam. Donec fermentum varius nisi non euismod. In hac habitasse platea dictumst. Sed sed
-            turpis cursus, auctor metus eget, ultrices orci. Vivamus ligula felis, maximus id facilisis vel, congue
-            finibus risus. Suspendisse aliquam quis libero in pharetra. Sed lorem nibh, efficitur vitae dolor sed,
-            accumsan iaculis augue. Vivamus varius nibh sapien, non ornare turpis aliquam vel. Nulla congue, libero eget
-            laoreet varius, turpis nisi imperdiet ligula, viverra molestie sapien magna in augue. Maecenas hendrerit
-            purus sapien, molestie commodo sem sollicitudin a. Proin ac ultricies elit. Aliquam erat volutpat.
-
-            Proin ut lacus est. Etiam elementum ex et purus ornare, vitae fringilla tellus bibendum. Pellentesque
-            tristique orci vel tincidunt dapibus. Maecenas iaculis risus nec iaculis maximus. Pellentesque eu semper
-            odio. Quisque ac euismod mi, in maximus est. Curabitur convallis erat erat, rutrum posuere ex semper quis.
-            Curabitur vitae tortor ut elit tempus tincidunt porta vitae felis. Nullam est odio, volutpat nec dignissim
-            placerat, molestie ut massa. Maecenas lacinia ligula eu efficitur finibus.
-
-            Praesent ornare, est non pulvinar hendrerit, leo justo mollis felis, a iaculis turpis urna vel risus.
-            Aliquam condimentum egestas ex in iaculis. Vestibulum sit amet felis et massa aliquet feugiat. Ut nec tempus
-            erat. Suspendisse porta pellentesque arcu. Quisque ut diam dolor. Aenean elementum elit in tellus
-            ullamcorper pellentesque. Vestibulum felis nisi, malesuada ut quam et, mollis pellentesque nunc.
-
-            Proin aliquet feugiat eros in faucibus. Fusce euismod ultricies dolor eu mattis. Vestibulum ante ipsum
-            primis in faucibus orci luctus et ultrices posuere cubilia curae; Etiam facilisis nec lorem vel blandit.
-            Aenean sed urna lobortis, tristique justo sit amet, sollicitudin lacus. Etiam in dignissim dui. Mauris nec
-            aliquam felis. Morbi fringilla congue purus feugiat vulputate. Fusce ultrices ante nec iaculis vehicula.
-            Nullam consectetur pretium dignissim. Mauris at sollicitudin felis, eget consequat metus. Vestibulum ante
-            ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed ut egestas tellus. Vestibulum
-            odio metus, tempor ac auctor id, egestas ac nulla. Vestibulum porta magna nec faucibus pellentesque.
-
-            Ut tincidunt dignissim vehicula. Etiam eu eros in turpis blandit ullamcorper. Praesent cursus libero aliquam
-            congue varius. Ut ac suscipit sem. Etiam sed fringilla dolor, in finibus risus. Duis efficitur a sem a
-            auctor. Mauris elementum vel enim vitae imperdiet. Cras non varius sem. Cras ultrices iaculis ullamcorper.
-        </p>
+        <div class="w3-cell-row">
+            <div class="w3-container w3-cell w3-cell-middle welcome">
+                <h1>Welcome</h1>
+                <p><a id="profile-link" href="https://github.com/leochilds" target="_blank">Click here to see my github
+                        profile</a></p>
+                <p>This is the personal portfolio project for the freecodecamp course.</p>
+            </div>
+        </div>
     </section>
-    <section id="projects">
-        <div id="tribute-project" class="project-tile">
-            <a href="https://leochilds.github.io/tribute-page/" target="_blank">Tribute Page</a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac leo lacus. Nulla lacus ex, rutrum
-                id arcu varius, porta facilisis lectus. Morbi interdum feugiat nunc sed rutrum. Aliquam placerat magna
-                ac lobortis elementum. Nulla nisl justo, volutpat ut rutrum a, dignissim et augue. Maecenas augue
-                libero, blandit quis convallis ac, condimentum sed purus. Nam accumsan tempor turpis. Cras non elementum
-                justo.
+    <section id="projects" class="w3-row">
+        <div class="project-tile w3-card w3-col m5 s11 w3-margin">
+            <header class="w3-container w3-blue">
+                <h3>Tribute Page</h3>
+            </header>
+            <article class="w3-container">
+                <img src="assets/tribute_page.png" alt="survey form" />
+                <p>Link: <a href="https://leochilds.github.io/tribute-page/" target="_blank">Tribute Page</a></p>
+                <p>This is a short tribute page to Alan Turing.</p>
+            </article>
+        </div>
+        <div class="project-tile w3-card w3-col m5 s11 w3-margin">
+            <header class="w3-container w3-blue">
+                <h3>Survey Form</h3>
+            </header>
+            <article class="w3-container">
+                <img src="assets/survey_form.png" alt="survey form" />
+                <p>Link: <a href="https://leochilds.github.io/survey-form/" target="_blank">Survey Form</a></p>
+                <p>This is a short survey form. This form does not submit but it does include HTML5 validation.</p>
+            </article>
+        </div>
 
-                Phasellus ullamcorper rhoncus turpis, sit amet sollicitudin velit vestibulum eu. Nullam pretium, diam
-                vitae condimentum cursus, elit velit bibendum eros, id aliquet justo nulla ac libero. Nulla aliquet,
-                lorem eu posuere ultricies, dolor libero consequat sapien, quis efficitur tellus odio non quam. Aliquam
-                erat volutpat. Vivamus vehicula varius ex, vel varius arcu fringilla et. Cras massa tellus, elementum
-                vel augue ac, molestie ullamcorper dolor. Maecenas semper non est quis finibus. Cras ac nisi eget quam
-                pulvinar vestibulum sit amet a orci. Cras tortor nisl, convallis vitae lorem vel, pharetra accumsan
-                tellus. Curabitur at nibh ac risus aliquam lobortis et id dui. Cras a arcu dui. Vivamus a dolor
-                malesuada, finibus erat ac, dictum metus.
 
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum purus lorem, vestibulum ut ornare
-                vitae, feugiat id turpis. Aliquam erat dolor, pellentesque vitae venenatis finibus, mollis sit amet
-                urna. Fusce finibus lacus vitae odio sodales placerat. Praesent eget rhoncus augue. Aenean massa urna,
-                maximus at purus sit amet, mollis dictum sem. Vestibulum ante ipsum primis in faucibus orci luctus et
-                ultrices posuere cubilia curae;
 
-                In hac habitasse platea dictumst. Curabitur tincidunt dictum neque et pellentesque. In condimentum
-                feugiat neque, tincidunt mollis purus dapibus in. Vestibulum tristique mauris ante, nec semper lacus
-                suscipit vel. Curabitur convallis justo id ligula maximus tempor. Suspendisse ornare metus sed est
-                volutpat eleifend. Curabitur in lectus quis purus aliquam scelerisque sit amet id velit. Vivamus est
-                nibh, aliquet in tristique vel, pharetra vitae mi. Donec elementum odio sed lorem cursus, nec bibendum
-                nunc malesuada. Sed non pellentesque risus. Phasellus congue viverra porttitor. Cras ac molestie odio,
-                vitae laoreet quam. Proin venenatis eget massa vel iaculis.
+        <div class="project-tile w3-card w3-col m5 s11 w3-margin">
+            <header class="w3-container w3-blue">
+                <h3>Landing Page</h3>
+            </header>
+            <article class="w3-container">
+                <img src="assets/landing_page.png" alt="landing page" />
+                <p>Link: <a href="https://leochilds.github.io/landing-page/" target="_blank">Landing Page</a></p>
+                <p>This is a short landing page to the ACME Corporation.</p>
+            </article>
 
-                Vestibulum tellus arcu, convallis non tincidunt et, vestibulum sed enim. Etiam in semper nunc. Mauris
-                est est, tristique vitae consectetur in, placerat sed purus. Proin facilisis dui iaculis vehicula
-                ullamcorper. Duis sem erat, pulvinar ut malesuada at, ultricies ac ipsum. Donec tristique eros efficitur
-                hendrerit blandit. Vestibulum fringilla, magna in sollicitudin iaculis, diam elit viverra est, vitae
-                gravida velit magna eu nisi. Maecenas aliquam, felis sit amet bibendum maximus, erat ipsum finibus urna,
-                quis pulvinar purus risus a arcu. Fusce sollicitudin ante enim, vitae venenatis sem rutrum consequat.
-                Fusce cursus sapien vitae auctor rutrum. Duis maximus elit id eros scelerisque sollicitudin. Maecenas
-                blandit purus in est suscipit porta.
+        </div>
+        <div class="project-tile w3-card w3-col m5 s11 w3-margin">
+            <header class="w3-container w3-blue">
+                <h3>Technical Documentation</h3>
+            </header>
+            <article class="w3-container">
+                <img src="assets/technical_documentation.png" alt="technical documentation" />
+                <p>Link: <a href="https://leochilds.github.io/technical-documentation/" target="_blank">Technical
+                        Documentation</a></p>
+                <p>This is a short technical documentation page on HTML basics.</p>
+            </article>
 
-                Phasellus ut mollis quam. Donec fermentum varius nisi non euismod. In hac habitasse platea dictumst. Sed
-                sed turpis cursus, auctor metus eget, ultrices orci. Vivamus ligula felis, maximus id facilisis vel,
-                congue finibus risus. Suspendisse aliquam quis libero in pharetra. Sed lorem nibh, efficitur vitae dolor
-                sed, accumsan iaculis augue. Vivamus varius nibh sapien, non ornare turpis aliquam vel. Nulla congue,
-                libero eget laoreet varius, turpis nisi imperdiet ligula, viverra molestie sapien magna in augue.
-                Maecenas hendrerit purus sapien, molestie commodo sem sollicitudin a. Proin ac ultricies elit. Aliquam
-                erat volutpat.
-
-                Proin ut lacus est. Etiam elementum ex et purus ornare, vitae fringilla tellus bibendum. Pellentesque
-                tristique orci vel tincidunt dapibus. Maecenas iaculis risus nec iaculis maximus. Pellentesque eu semper
-                odio. Quisque ac euismod mi, in maximus est. Curabitur convallis erat erat, rutrum posuere ex semper
-                quis. Curabitur vitae tortor ut elit tempus tincidunt porta vitae felis. Nullam est odio, volutpat nec
-                dignissim placerat, molestie ut massa. Maecenas lacinia ligula eu efficitur finibus.
-
-                Praesent ornare, est non pulvinar hendrerit, leo justo mollis felis, a iaculis turpis urna vel risus.
-                Aliquam condimentum egestas ex in iaculis. Vestibulum sit amet felis et massa aliquet feugiat. Ut nec
-                tempus erat. Suspendisse porta pellentesque arcu. Quisque ut diam dolor. Aenean elementum elit in tellus
-                ullamcorper pellentesque. Vestibulum felis nisi, malesuada ut quam et, mollis pellentesque nunc.
-
-                Proin aliquet feugiat eros in faucibus. Fusce euismod ultricies dolor eu mattis. Vestibulum ante ipsum
-                primis in faucibus orci luctus et ultrices posuere cubilia curae; Etiam facilisis nec lorem vel blandit.
-                Aenean sed urna lobortis, tristique justo sit amet, sollicitudin lacus. Etiam in dignissim dui. Mauris
-                nec aliquam felis. Morbi fringilla congue purus feugiat vulputate. Fusce ultrices ante nec iaculis
-                vehicula. Nullam consectetur pretium dignissim. Mauris at sollicitudin felis, eget consequat metus.
-                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed ut egestas
-                tellus. Vestibulum odio metus, tempor ac auctor id, egestas ac nulla. Vestibulum porta magna nec
-                faucibus pellentesque.
-
-                Ut tincidunt dignissim vehicula. Etiam eu eros in turpis blandit ullamcorper. Praesent cursus libero
-                aliquam congue varius. Ut ac suscipit sem. Etiam sed fringilla dolor, in finibus risus. Duis efficitur a
-                sem a auctor. Mauris elementum vel enim vitae imperdiet. Cras non varius sem. Cras ultrices iaculis
-                ullamcorper.</p>
         </div>
     </section>
     <script src="./tests.js"></script>
